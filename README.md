@@ -7,7 +7,7 @@ Petra is a geological interpretation sotfware by S&P Global:
 
 # Table of Contents
 - [Petra Batch Grid Import](#PetraBatchGridImport)
-- [Workflow](#WorkflowforKingdomGrids)
+-    [Workflow](#WorkflowforKingdomGrids)
 
 ## Petra Batch Grid Import
 
@@ -25,7 +25,7 @@ Petra is a geological interpretation sotfware by S&P Global:
 
 ### Additional Functions
 
-In addition to the Kingdom workflow, this repository provides functions to create text files for batch loading of shapefiles and .dat files into Petra:
+In addition to the Kingdom Grid workflow, this repository provides functions to create text files for batch loading of shapefiles and .dat files into Petra:
 
 - `petrabatchshapefiletxtfile(filepath)`: Create a text file for batch loading shapefiles into Petra.
 - `petrabatchdatfiletxtfile(filepath)`: Create a text file for batch loading .dat files into Petra.
