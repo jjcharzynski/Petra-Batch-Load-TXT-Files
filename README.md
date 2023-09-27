@@ -10,18 +10,7 @@ Petra is a geological interpretation sotfware by S&P Global:
 
 ## Petra Batch Grid Import
 
-
-Here's a Markdown README for your GitHub repository:
-
-```markdown
-# Grid Workflow Tools for Petra
-
-Author: [jjcharzynski](linkedin.com/in/jjcharzynski)  
-GitHub: [jjcharzynski](github.com/jjcharzynski)
-
-This repository contains a set of Python functions for working with grid data in Kingdom and Petra. These tools streamline the workflow for importing and organizing grid files.
-
-## Workflow for Kingdom Grids
+### Workflow for Kingdom Grids
 
 1. Export grids from Kingdom using the IsoMap Z-MAP Plus format.
    - Tip: Export each interpreter's grids into their own folder and use the `moveandaddinterpreter()` function. This will rename the grid files using the folder name as a prefix, making it easier to identify the grid's creator when using them in Petra.
@@ -33,18 +22,18 @@ This repository contains a set of Python functions for working with grid data in
    - Check the "Input File Is Really A List of Grid Files To Batch Import" option.
    - Select the file created in step 2 as the input file.
 
-## Additional Functions
+### Additional Functions
 
 In addition to the Kingdom workflow, this repository provides functions to create text files for batch loading of shapefiles and .dat files into Petra:
 
 - `petrabatchshapefiletxtfile(filepath)`: Create a text file for batch loading shapefiles into Petra.
 - `petrabatchdatfiletxtfile(filepath)`: Create a text file for batch loading .dat files into Petra.
 
-## Usage
+### Usage
 
 You can use these functions to simplify your workflow when working with grid data in Petra and Kingdom. Simply follow the instructions above for each step of the process.
 
-### `moveandaddinterpreter(filepath)`
+#### `moveandaddinterpreter(filepath)`
 
 This function renames grid files using the folder name as a prefix. Files will be moved from the subfolders in `filepath` to `filepath`.
 
@@ -52,7 +41,7 @@ This function renames grid files using the folder name as a prefix. Files will b
 moveandaddinterpreter('C:\Grids for Petra')
 ```
 
-### `petrabatchgridtxtfile(filepath)`
+#### `petrabatchgridtxtfile(filepath)`
 
 This function creates a text file that can be used to batch import grid files into Petra.
 
@@ -60,7 +49,7 @@ This function creates a text file that can be used to batch import grid files in
 petrabatchgridtxtfile('C:\Grids for Petra')
 ```
 
-### `petrabatchshapefiletxtfile(filepath)`
+#### `petrabatchshapefiletxtfile(filepath)`
 
 Create a text file to batch import shapefiles into Petra.
 
@@ -68,7 +57,7 @@ Create a text file to batch import shapefiles into Petra.
 petrabatchshapefiletxtfile('C:\Shapefiles for Petra')
 ```
 
-### `petrabatchdatfiletxtfile(filepath)`
+#### `petrabatchdatfiletxtfile(filepath)`
 
 Create a text file to batch import .dat files into Petra.
 
