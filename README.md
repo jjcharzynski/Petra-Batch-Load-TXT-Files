@@ -7,6 +7,7 @@ Petra is a geological interpretation sotfware by S&P Global:
 
 # Table of Contents
 - [Petra Batch Grid Import](#PetraBatchGridImport)
+- [Workflow](#WorkflowforKingdomGrids)
 
 ## Petra Batch Grid Import
 
@@ -64,10 +65,3 @@ Create a text file to batch import .dat files into Petra.
 ```python
 petrabatchdatfiletxtfile('C:\DatFiles for Petra')
 ```
-
-Feel free to contribute to this repository and improve the workflow tools. If you encounter any issues or have suggestions, please create an issue or a pull request.
-
-Happy geoscience coding!
-```
-
-You can copy and paste this Markdown code into your GitHub repository's README.md file.
