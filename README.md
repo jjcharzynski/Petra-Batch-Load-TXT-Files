@@ -7,9 +7,9 @@ Petra is a geological interpretation sotfware by S&P Global:
 
 # Table of Contents
 - [Petra Batch Import File](#Petra-Batch-Import-txt-file-generation)
--    [Grids](#Grids)
--    [Shapefiles](#Shapefiles)
--    [.DAT files](#.DAT-Files)
+   - [Grids](#Grids)
+   - [Shapefiles](#Shapefiles)
+   - [.DAT files](#.DAT-Files)
 
 ## Petra Batch Import txt file generation
 
